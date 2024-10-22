@@ -1,0 +1,24 @@
+// Find Largest 3 values 
+#include <stdio.h>
+
+void main() {
+    
+ int a,b,c;
+ int res;
+ printf("Enter Three Values Of a,b,c : ");
+ scanf("%d %d %d",&a,&b,&c);
+if(a>b && a>c)
+{
+    res = a;
+}
+else if(b>a && b>c)
+{
+    res = b;
+}
+else
+{
+    res = c;
+}
+printf("%d is the biggest value",res);
+
+}
